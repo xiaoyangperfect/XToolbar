@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".BFragment">
+
+    <com.xy.xbar.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        app:statusBarColor="@android:color/white"
+        app:titleTextColor="@android:color/black"
+        android:background="@android:color/white"
+        app:color="@android:color/white"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</LinearLayout>
