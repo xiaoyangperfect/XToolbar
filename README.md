@@ -73,4 +73,4 @@ protected void onLayout(boolean changed, int l, int t, int r, int b) {
 }
 ```
 通过查看源码可以了解到，`Toolbar`是由`ViewGroup`实现的，其中各个控件的位置是通过私有方法计算得到的，而在这个方法中影响垂直位置计算的就是`padding`值，所以设置padding值将状态栏的那块高度空出来就OK了。
-至此我们这个控件就搞定了，赶快去试用吧！[源码链接]()
+至此我们这个控件就搞定了，赶快去试用吧！[源码链接](https://github.com/xiaoyangperfect/XToolbar/tree/master)
